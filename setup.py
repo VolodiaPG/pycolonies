@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     py_modules=["pycolonies", "crypto", "cfs", "model"],
     long_description_content_type="text/markdown",
-    url="https://github.com/colonyos/pycolonies",
+    url="https://github.com/volodiapg/pycolonies",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -23,6 +23,6 @@ setuptools.setup(
         "requests>=2.27.1",
         "websocket-client>=1.3.1",
         "boto3>=1.34.136",
-        "pydantic>=2.6.4"
-    ]
+        "pydantic>=2.6.4",
+    ],
 )

@@ -575,6 +575,7 @@ class Colonies:
         label=None,
         metadata_endpoint=None,
     ):
+
         return self.__upload_file(
             filename,
             label,
